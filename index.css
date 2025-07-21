@@ -1,0 +1,100 @@
+* {
+  padding: 0.5ch;
+  margin: 0;
+
+  font-family: "Georgia", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+
+  background-color: pink;
+
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  gap: 1rem;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 5%;
+  padding: 1%;
+  border-radius: 15ch;
+  background-color: whitesmoke;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  gap: 4ch;
+  align-items: baseline;
+}
+
+aside {
+  padding: 0.5rem;
+}
+
+a {
+  font-size: large;
+  font-weight: bold;
+  color: black;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5ch;
+}
+
+li {
+  background-color: cornflowerblue;
+  padding: 0 4ch;
+  border-radius: 15ch;
+  list-style: none;
+  line-height: 2rem;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  padding-right: 0.5rem;
+  gap: 0.5rem;
+}
+
+article h1 {
+  font-family: Lucida Handwriting, cursive;
+  border-bottom: solid;
+}
+
+blockquote {
+  font-style: italic;
+}
+
+.brand {
+  font-size: xx-large;
+  font-weight: bolder;
+  font-family: Lucida Handwriting, cursive;
+}
+
+.testimonial {
+  background-color: white;
+  padding: 2.2ch;
+  border-radius: 15ch;
+}
